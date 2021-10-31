@@ -9,7 +9,7 @@ resource "docker_container" "loadbalancer" {
   ]
   ports {
     internal = 80
-    external = 5000
+    external = 5999
   }
 }
 
